@@ -118,7 +118,6 @@ class game_state:
 			if self.board[row+direction[0]*n][col+direction[1]*n] == self.getTurn(count_iter):
 				for x in range(1,n):
 					flipped.append(((row+direction[0]*x),(col+direction[1]*x)))
-
 				return flipped
 			#searches for cell to end chain of not cells
 			n+=1

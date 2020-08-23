@@ -191,7 +191,9 @@ class startMenu:
 
 	def run(self)->None:
 		'Runs the loop on the start menu and waits to create game'
-		self._root_window.mainloop
+		print('hello')
+		self._root_window.mainloop()
+	
 
 class OthelloGame:
 
@@ -407,4 +409,5 @@ class OthelloGame:
 		self._root_window.wait_window()
 
 if __name__=='__main__':
+	print('hello')
 	startMenu().run()
